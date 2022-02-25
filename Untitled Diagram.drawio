@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-25T07:19:23.836Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.56" etag="RoDlpNjaJ7ovt_1frahE" version="16.4.2" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-02-25T07:27:31.402Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.56" etag="hOOyyGLw0FdWr07fTyCn" version="16.4.2" type="github" pages="12">
   <diagram id="pZK0bAO4Z63p6BIQv10N" name="Page-1">
     <mxGraphModel dx="1186" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2257,7 +2257,10 @@
         <mxCell id="AaIJNTnOYkqyGRBTZD9n-17" value="文件授权用户关系" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="dkdDNZKrxeMxQTTcVcw9-1" source="9sgC6WBu5MEEqlKh5SHD-5" target="9sgC6WBu5MEEqlKh5SHD-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9sgC6WBu5MEEqlKh5SHD-5" value="&lt;span&gt;document&lt;br&gt;(文件)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="dkdDNZKrxeMxQTTcVcw9-1" vertex="1">
+        <mxCell id="OvWXW2anOTaB6vNzToW6-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dkdDNZKrxeMxQTTcVcw9-1" source="9sgC6WBu5MEEqlKh5SHD-5" target="OvWXW2anOTaB6vNzToW6-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9sgC6WBu5MEEqlKh5SHD-5" value="&lt;span&gt;document&lt;br&gt;(文档)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="dkdDNZKrxeMxQTTcVcw9-1" vertex="1">
           <mxGeometry x="540" y="370" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="j6sN-ltOUTeF_XyDtsKE-1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="dkdDNZKrxeMxQTTcVcw9-1" source="9sgC6WBu5MEEqlKh5SHD-4" target="9sgC6WBu5MEEqlKh5SHD-4" edge="1">
@@ -2287,6 +2290,18 @@
           <mxGeometry x="0.0662" y="-3" relative="1" as="geometry">
             <mxPoint x="-3" y="-21" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="OvWXW2anOTaB6vNzToW6-0" value="&lt;span&gt;v_document&lt;br&gt;(虚拟文档)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="dkdDNZKrxeMxQTTcVcw9-1">
+          <mxGeometry x="690" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OvWXW2anOTaB6vNzToW6-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dkdDNZKrxeMxQTTcVcw9-1" source="OvWXW2anOTaB6vNzToW6-2" target="OvWXW2anOTaB6vNzToW6-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OvWXW2anOTaB6vNzToW6-2" value="file&lt;br&gt;（物理文件）" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="dkdDNZKrxeMxQTTcVcw9-1">
+          <mxGeometry x="820" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OvWXW2anOTaB6vNzToW6-5" value="file&lt;br&gt;（物理文件）" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="dkdDNZKrxeMxQTTcVcw9-1">
+          <mxGeometry x="820" y="220" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
